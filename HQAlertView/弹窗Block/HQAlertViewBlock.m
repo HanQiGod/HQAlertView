@@ -88,7 +88,7 @@
     [sureButton addTarget:self action:@selector(processSure:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.contentView addSubview:sureButton];
-    
+     
 }
 
 - (void)show{
