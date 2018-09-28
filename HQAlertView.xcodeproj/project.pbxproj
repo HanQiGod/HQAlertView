@@ -15,6 +15,13 @@
 		7AA4D9DB215DB8630001696A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D9DA215DB8630001696A /* main.m */; };
 		7AA4D9E5215DB8630001696A /* HQAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D9E4215DB8630001696A /* HQAlertViewTests.m */; };
 		7AA4D9F0215DB8630001696A /* HQAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D9EF215DB8630001696A /* HQAlertViewUITests.m */; };
+		7AA4DA0E215DB8DB0001696A /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4D9FE215DB8DB0001696A /* PopViewController.m */; };
+		7AA4DA0F215DB8DB0001696A /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4D9FF215DB8DB0001696A /* PopViewController.xib */; };
+		7AA4DA11215DB8DB0001696A /* UIView+HLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA05215DB8DB0001696A /* UIView+HLExtension.m */; };
+		7AA4DA13215DB8DB0001696A /* HLXibAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA0B215DB8DB0001696A /* HLXibAlertView.m */; };
+		7AA4DA14215DB8DB0001696A /* HLXibAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AA4DA0C215DB8DB0001696A /* HLXibAlertView.xib */; };
+		7AA4DA17215DC19D0001696A /* HQAlertViewBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA16215DC19D0001696A /* HQAlertViewBlock.m */; };
+		7AA4DA1D215DC2990001696A /* HQAlertViewDele.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA4DA1C215DC2990001696A /* HQAlertViewDele.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		7AA4D9EB215DB8630001696A /* HQAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA4D9EF215DB8630001696A /* HQAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAlertViewUITests.m; sourceTree = "<group>"; };
 		7AA4D9F1215DB8630001696A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA4D9FE215DB8DB0001696A /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		7AA4D9FF215DB8DB0001696A /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
+		7AA4DA00215DB8DB0001696A /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		7AA4DA05215DB8DB0001696A /* UIView+HLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLExtension.m"; sourceTree = "<group>"; };
+		7AA4DA06215DB8DB0001696A /* UIView+HLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLExtension.h"; sourceTree = "<group>"; };
+		7AA4DA0B215DB8DB0001696A /* HLXibAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLXibAlertView.m; sourceTree = "<group>"; };
+		7AA4DA0C215DB8DB0001696A /* HLXibAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HLXibAlertView.xib; sourceTree = "<group>"; };
+		7AA4DA0D215DB8DB0001696A /* HLXibAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLXibAlertView.h; sourceTree = "<group>"; };
+		7AA4DA15215DC19D0001696A /* HQAlertViewBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQAlertViewBlock.h; sourceTree = "<group>"; };
+		7AA4DA16215DC19D0001696A /* HQAlertViewBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAlertViewBlock.m; sourceTree = "<group>"; };
+		7AA4DA1B215DC2990001696A /* HQAlertViewDele.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQAlertViewDele.h; sourceTree = "<group>"; };
+		7AA4DA1C215DC2990001696A /* HQAlertViewDele.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQAlertViewDele.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,11 @@
 		7AA4D9CA215DB8600001696A /* HQAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				7AA4DA07215DB8DB0001696A /* 弹窗Block */,
+				7AA4DA01215DB8DB0001696A /* 弹窗delegate */,
+				7AA4D9FD215DB8DB0001696A /* 透明控制器 */,
+				7AA4DA0A215DB8DB0001696A /* xib弹窗 */,
+				7AA4DA04215DB8DB0001696A /* Lib */,
 				7AA4D9CB215DB8600001696A /* AppDelegate.h */,
 				7AA4D9CC215DB8600001696A /* AppDelegate.m */,
 				7AA4D9CE215DB8600001696A /* ViewController.h */,
@@ -130,6 +154,53 @@
 				7AA4D9F1215DB8630001696A /* Info.plist */,
 			);
 			path = HQAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		7AA4D9FD215DB8DB0001696A /* 透明控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4DA00215DB8DB0001696A /* PopViewController.h */,
+				7AA4D9FE215DB8DB0001696A /* PopViewController.m */,
+				7AA4D9FF215DB8DB0001696A /* PopViewController.xib */,
+			);
+			path = "透明控制器";
+			sourceTree = "<group>";
+		};
+		7AA4DA01215DB8DB0001696A /* 弹窗delegate */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4DA1B215DC2990001696A /* HQAlertViewDele.h */,
+				7AA4DA1C215DC2990001696A /* HQAlertViewDele.m */,
+			);
+			path = "弹窗delegate";
+			sourceTree = "<group>";
+		};
+		7AA4DA04215DB8DB0001696A /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4DA05215DB8DB0001696A /* UIView+HLExtension.m */,
+				7AA4DA06215DB8DB0001696A /* UIView+HLExtension.h */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		7AA4DA07215DB8DB0001696A /* 弹窗Block */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4DA15215DC19D0001696A /* HQAlertViewBlock.h */,
+				7AA4DA16215DC19D0001696A /* HQAlertViewBlock.m */,
+			);
+			path = "弹窗Block";
+			sourceTree = "<group>";
+		};
+		7AA4DA0A215DB8DB0001696A /* xib弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				7AA4DA0D215DB8DB0001696A /* HLXibAlertView.h */,
+				7AA4DA0B215DB8DB0001696A /* HLXibAlertView.m */,
+				7AA4DA0C215DB8DB0001696A /* HLXibAlertView.xib */,
+			);
+			path = "xib弹窗";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +306,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4DA14215DB8DB0001696A /* HLXibAlertView.xib in Resources */,
+				7AA4DA0F215DB8DB0001696A /* PopViewController.xib in Resources */,
 				7AA4D9D8215DB8630001696A /* LaunchScreen.storyboard in Resources */,
 				7AA4D9D5215DB8630001696A /* Assets.xcassets in Resources */,
 				7AA4D9D3215DB8600001696A /* Main.storyboard in Resources */,
@@ -262,8 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA4DA17215DC19D0001696A /* HQAlertViewBlock.m in Sources */,
+				7AA4DA11215DB8DB0001696A /* UIView+HLExtension.m in Sources */,
+				7AA4DA0E215DB8DB0001696A /* PopViewController.m in Sources */,
 				7AA4D9D0215DB8600001696A /* ViewController.m in Sources */,
+				7AA4DA1D215DC2990001696A /* HQAlertViewDele.m in Sources */,
 				7AA4D9DB215DB8630001696A /* main.m in Sources */,
+				7AA4DA13215DB8DB0001696A /* HLXibAlertView.m in Sources */,
 				7AA4D9CD215DB8600001696A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
