@@ -178,8 +178,8 @@
 		7AA4DA04215DB8DB0001696A /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				7AA4DA05215DB8DB0001696A /* UIView+HLExtension.m */,
 				7AA4DA06215DB8DB0001696A /* UIView+HLExtension.h */,
+				7AA4DA05215DB8DB0001696A /* UIView+HLExtension.m */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
