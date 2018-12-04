@@ -8,4 +8,4 @@
 >3. 通过xib创建封装的弹窗
 >4. 新建控制器作为弹窗
 
-CSDN地址：https://blog.csdn.net/u010960265/article/details/82876436
+### [详细查看博客](https://blog.csdn.net/u010960265/article/details/82876436)
